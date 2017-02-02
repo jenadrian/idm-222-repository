@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+
+html{
+  font-size: 100%;
+}
+body{
+  background-color: white;
+  color:#575454;
+  font: 100% 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 2rem;
+  padding: .007rem;
+}
+h1{
+  color:#F51E95;
+  font: 400% 'Times New Roman', serif;
+}
+h2, h3, h4, h5, h6{
+  color: #474545;
+  font: 200% 'Raleway', sans-serif;
+  font-weight: 550;
+}
+.row{
+  overflow:auto;
+}
+.row::after{
+  clear:both;
+}
+
+
+@media screen and (min-width:1000px){
+.logo{
+display: none;
+}
+}
+
+@media screen and (min-width:700px){
+.column{
+  width:50%;
+  float:left;
+}
+}
