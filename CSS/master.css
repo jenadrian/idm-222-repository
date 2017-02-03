@@ -2,11 +2,41 @@
 
 html{
   font-size: 100%;
+  font: 100% 'Open Sans', sans-serif;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color:#474545 ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*ul.topnav li a:hover:not(.active) {background-color: #111;}*/
+
+ul.topnav li a.active {
+  color:white;
+  background-color: #F51E95;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
 }
 body{
   background-color: white;
   color:#575454;
-  font: 100% 'Open Sans', sans-serif;
   font-weight: 400;
   margin: 2rem;
   padding: .007rem;
@@ -20,13 +50,11 @@ h2, h3, h4, h5, h6{
   font: 200% 'Raleway', sans-serif;
   font-weight: 550;
 }
-.row{
-  overflow:auto;
-}
-.row::after{
-  clear:both;
-}
 
+img{
+  width:100%;
+  height:auto;
+}
 
 @media screen and (min-width:1000px){
 .logo{
@@ -34,9 +62,39 @@ display: none;
 }
 }
 
-@media screen and (min-width:700px){
-.column{
-  width:50%;
-  float:left;
+.row{
+  overflow: auto;
 }
+.row::after{
+  clear:both;
+
+}
+
+@media screen and (min-width: 700px) {
+[class*="col-"] {
+  /*background-color: rgba(45, 157, 192, 0.2);
+  border: 1px solid #2d9dc0;
+  keep code above; helps to visualize responsive layout when creating grid*/
+  padding: 16px;
+  width: 100%;
+  float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media screen and (min-width:700px) {
+
+[class*="col-"] {
+    float: left;
+  }
 }
