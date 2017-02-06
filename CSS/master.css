@@ -30,7 +30,7 @@ ul.topnav li a.active {
 
 ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     ul.topnav li.right,
     ul.topnav li {float: none;}
 }
@@ -56,11 +56,17 @@ img{
   height:auto;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:800px){
 .logo{
 display: none;
 }
 }
+@media screen and (max-width:800px){
+h1{
+  text-align: center;
+}
+}
+
 
 .row{
   overflow: auto;
@@ -70,7 +76,7 @@ display: none;
 
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
 [class*="col-"] {
   /*background-color: rgba(45, 157, 192, 0.2);
   border: 1px solid #2d9dc0;
@@ -97,4 +103,18 @@ display: none;
 [class*="col-"] {
     float: left;
   }
+}
+
+#contact{
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}
+
+#submit-button{
+  background-color: #F51E95;
+  color: white;
+  font: font: 100% 'Open Sans', sans-serif;
 }
