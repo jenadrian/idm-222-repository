@@ -1,3 +1,8 @@
+/*UNIVERSAL STYLING*/
+
+
+
+
 *{box-sizing: border-box;}
 
 html{
@@ -18,7 +23,7 @@ ul.topnav li a {
     display: block;
     color:#474545 ;
     text-align: center;
-    padding: 14px 16px;
+    padding: .875rem 1rem;
     text-decoration: none;
 }
 
@@ -30,7 +35,7 @@ ul.topnav li a.active {
 
 ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 50rem){
     ul.topnav li.right,
     ul.topnav li {float: none;}
 }
@@ -45,6 +50,17 @@ h1{
   color:#F51E95;
   font: 400% 'Times New Roman', serif;
 }
+@media screen and (min-width:50rem){
+.logo{
+display: none;
+}
+}
+@media screen and (max-width:50rem){
+h1{
+  text-align: center;
+}
+}
+
 h2, h3, h4, h5, h6{
   color: #474545;
   font: 200% 'Raleway', sans-serif;
@@ -56,16 +72,9 @@ img{
   height:auto;
 }
 
-@media screen and (min-width:800px){
-.logo{
-display: none;
-}
-}
-@media screen and (max-width:800px){
-h1{
-  text-align: center;
-}
-}
+
+/*GRID SYSTEM STYLING*/
+
 
 
 .row{
@@ -76,7 +85,7 @@ h1{
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 50rem) {
 [class*="col-"] {
   /*background-color: rgba(45, 157, 192, 0.2);
   border: 1px solid #2d9dc0;
@@ -105,16 +114,27 @@ h1{
   }
 }
 
+
+/*PUBLISHED CONTENT STYLING*/
+.article-title{
+  font-weight: bold;
+}
+.editorial-info{
+  color: #757272;
+}
+
+
+
+
+
+/*CONTACT ME PAGE STYLING*/
+
 #contact{
   text-align: center;
 }
 
 form{
-  text-align: center;
-}
-
-#submit-button{
-  background-color: #F51E95;
-  color: white;
-  font: font: 100% 'Open Sans', sans-serif;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
