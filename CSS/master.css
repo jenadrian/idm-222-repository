@@ -17,6 +17,18 @@ ul.topnav {
     background-color: white;
 }
 
+
+
+
+
+
+/*NAV STYLING*/
+
+
+
+
+
+
 ul.topnav li {float: left;}
 
 ul.topnav li a {
@@ -39,6 +51,18 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right,
     ul.topnav li {float: none;}
 }
+
+
+
+
+
+
+/*BODY STYLING*/
+
+
+
+
+
 body{
   background-color: white;
   color:#575454;
@@ -72,8 +96,33 @@ img{
   height:auto;
 }
 
+a:link {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+
+
 
 /*GRID SYSTEM STYLING*/
+
+
+
+
 
 
 
@@ -115,12 +164,40 @@ img{
 }
 
 
+
+
+
 /*PUBLISHED CONTENT STYLING*/
+
+
+
+
+
+.article-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
 .article-title{
   font-weight: bold;
+  color:#474545;
+
+
+
 }
 .editorial-info{
   color: #757272;
+}
+.article-box{
+  display:block;
+  flex-grow: <1>;
+  flex-shrink: <1>;
+  flex-basis: auto;
+  margin: auto;
+  width:20rem;
+  height:25rem;
 }
 
 
@@ -128,6 +205,10 @@ img{
 
 
 /*CONTACT ME PAGE STYLING*/
+
+
+
+
 
 #contact{
   text-align: center;
