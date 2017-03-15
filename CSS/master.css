@@ -233,7 +233,7 @@ footer a:-webkit-any-link{
 
 }
 
-.positions-list{
+.positions-list li{
   line-height: 2.5;
 }
 
