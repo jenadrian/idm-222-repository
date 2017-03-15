@@ -42,13 +42,15 @@ ul.topnav {
 
 /*ul.topnav li {float: left;}*/
 
-.topnav a {
+.topnav a{
     list-style: none;
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    color:#474545 ;
-    text-align: center;
+    display: block;
+    flex-wrap:nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    color:#474545;
     padding: .875rem 1rem;
     width: 100%;
 }
@@ -63,7 +65,20 @@ ul.topnav li a.active {
   background-color: #F51E95;
 }
 
-/*ul.topnav li.right{
+/*.topnav li.icons-top-nav{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    flex-wrap:nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    color:#474545 ;
+    padding: .875rem 1rem;
+    width: 100%;
+}*/
+
+/*ul.topnav li.right a.right{
   display: block;
   flex-wrap: nowrap;
   justify-content: flex-end;
@@ -125,7 +140,7 @@ h1{
 h2, h3, h4, h5, h6{
   color: #474545;
   font: 200% 'Raleway', sans-serif;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 img{
@@ -175,8 +190,8 @@ footer a:-webkit-any-link{
 
 .about-me-photo{
   display: block;
-  flex-grow: <1>;
-  flex-shrink: <1>;
+  flex-grow: 1;
+  flex-shrink: 1;
   flex-basis: auto;
   margin:auto;
   padding-top: 2rem;
@@ -199,8 +214,8 @@ footer a:-webkit-any-link{
 
 .who-i-am-text{
   display:block;
-  flex-grow: <1>;
-  flex-shrink: <1>;
+  flex-grow: 1;
+  flex-shrink: 1;
   flex-basis: auto;
   align-self: center;
   margin: auto;
