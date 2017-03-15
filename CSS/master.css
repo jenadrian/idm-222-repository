@@ -8,51 +8,88 @@
 html{
   font-size: 100%;
   font: 100% 'Open Sans', sans-serif;
+
+
+
+
+
+
+
+  /*NAV STYLING*/
+
+
+
+
+
+
+
 }
 ul.topnav {
-    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row wrap;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
+    /*justify-content: space-between;*/
+    align-items: center;
+    /*width: 100%;*/
+
+
 }
 
+/*ul.topnav li {float: left;}*/
 
-
-
-
-
-/*NAV STYLING*/
-
-
-
-
-
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-    display: block;
+.topnav a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
     color:#474545 ;
     text-align: center;
     padding: .875rem 1rem;
-    text-decoration: none;
+    width: 100%;
+}
+.topnav a:-webkit-any-link {
+  text-decoration: none;
 }
 
 /*ul.topnav li a:hover:not(.active) {background-color: #111;}*/
 
 ul.topnav li a.active {
   color:white;
-  background-color: #F51E95;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 50rem){
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
+  background-color: #F51E95;
 }
 
+/*ul.topnav li.right{
+  display: block;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
+}*/
 
+@media screen and (max-width: 50rem){
+    ul.topnav li {
+      -webkit-flex-flow: column wrap;
+      flex-flow: column wrap;
+      flex-direction: column;
+      padding: 0;
+      width: 100%;
+      height: auto;
+    }
+    .main-link{
+      flex:1;
+    }
+}
+
+.icons-top-nav {
+  display: flex;
+  flex-direction: row;
+
+}
 
 
 
@@ -113,15 +150,21 @@ a:active {
     text-decoration: underline;
 }
 
+footer{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  padding: 2rem 0 2rem 0;
+  color:#F51E95;
+}
 
-
-
+footer a:-webkit-any-link{
+  text-decoration: none;
+  color: #F51E95;
+}
 
 /*ABOUT ME STYLING*/
-
-
-
-
 
 .who-i-am-wrapper{
   display: flex;
@@ -141,6 +184,19 @@ a:active {
   height: 50%;
 }
 
+@media screen and (max-width:50rem) {
+  .about-me-photo{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+  }
+}
+
 .who-i-am-text{
   display:block;
   flex-grow: <1>;
@@ -151,6 +207,22 @@ a:active {
   padding-left: 2rem;
   width: 50%;
   height:50%;
+
+}
+
+@media screen and (max-width:50rem) {
+  div .who-i-am-text{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self:flex-start;
+    align-content: flex-start;
+    margin: auto;
+    padding: 0rem;
+    width: 100%;
+    height: auto;
+
+  }
+
 }
 
 .professional-experience{
@@ -237,10 +309,7 @@ a:active {
 /*CONTACT ME PAGE STYLING*/
 
 
-
-
-
-#contact{
+/*#contact{
   text-align: center;
 }
 
@@ -250,3 +319,20 @@ a:active {
   justify-content: center;
   align-content: center;
 }
+
+input {
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+input[type=text]:focus {
+    border: 1px solid #363739;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #F51E95;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;*/
