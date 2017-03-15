@@ -85,91 +85,6 @@ ul a{
   width: 100%;
 }
 
-/*ul.topnav {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    flex-flow: row wrap;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-
-
-}*/
-
-/*ul.topnav li {float: left;}
-
-.topnav a{
-    list-style: none;
-    text-decoration: none;
-    display: block;
-    flex-wrap:nowrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-self: flex-end;
-    color:#474545;
-    padding: .875rem 1rem;
-    width: 100%;
-}
-.topnav a:-webkit-any-link {
-  text-decoration: none;
-}
-
-/*ul.topnav li a:hover:not(.active) {background-color: #111;}*/
-
-/*ul.topnav li a.active {
-  color:white;
-  background-color: #F51E95;
-}*/
-
-/*.topnav li.icons-top-nav{
-    list-style: none;
-    text-decoration: none;
-    display: block;
-    flex-wrap:nowrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-    align-self: flex-end;
-    color:#474545 ;
-    padding: .875rem 1rem;
-    width: 100%;
-}*/
-
-/*ul.topnav li.right a.right{
-  display: block;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-items: flex-end;
-  align-self: flex-end;
-}*/
-
-/*@media screen and (max-width: 50rem){
-    ul.topnav li {
-      -webkit-flex-flow: column wrap;
-      flex-flow: column wrap;
-      flex-direction: column;
-      padding: 0;
-      width: 100%;
-      height: auto;
-    }
-    .main-link{
-      flex:1;
-    }
-}
-
-.icons-top-nav {
-  display: flex;
-  flex-direction: row;
-
-}*/
-
-
-
-
 /*BODY STYLING*/
 
 
@@ -228,13 +143,17 @@ footer{
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 1rem 0rem 1rem;
   color:#F51E95;
 }
 
 footer a:-webkit-any-link{
   text-decoration: none;
   color: #F51E95;
+}
+footer a{
+  text-align: center;
+  padding: 0 1rem;
 }
 
 /*ABOUT ME STYLING*/
@@ -371,8 +290,8 @@ footer a:-webkit-any-link{
 }
 .article-box{
   display:block;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex-grow: <1>;
+  flex-shrink: <1>;
   flex-basis: auto;
   margin: auto;
   width:20rem;
