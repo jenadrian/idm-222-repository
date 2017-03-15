@@ -4,63 +4,90 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway" rel="stylesheet">
+    <script src="https://use.fontawesome.com/235b348caa.js"></script>
     <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
     <link rel="stylesheet" type="text/css" href="CSS/master.css">
-      <title>Jenna Adrian Creative</title>
-  </head>
-    <body>
-      <header>
-          <h1>JENNA <br class="logo"> ADRIAN</h1>
-            <ul class="topnav">
-              <li><a class="active" href="HTML/about-me.html">About Me</a></li>
-              <li><a href="HTML/published-content.html">Published Content</a></li>
-              <li><a href="HTML/contact-me.html">Contact</a></li>
-              <!--<li class="right"><a href="contact-me.html">Contact</a></li> once more pages are added, contact me will live here-->
-            </ul>
-      </header>
-      <div class="row">
-        <div class="col-5">
-          <img id="me" src="http://placehold.it/300x300">
-        </div>
-        <div class="col-7">
-          <h2>Who I am</h2>
-            <p>Hi, I'm Jenna! I'm an experienced digital marketer, event planner and editorial content contributor. I'm the person working tirelessly behind the scenes to make more happen for my clients. Whether it's increasing publicity, profits, page views, or a combination of all three, you can depend on me to deliver and implement the strategies to make it happen.</p>
-        </div>
+    <title>Jenna Adrian Creative</title>
+</head>
+  <body>
+    <header>
+        <h1>JENNA <br class="logo"> ADRIAN</h1>
+          <ul class="topnav">
+            <li><a class="active main-link" href="about-me.html">About Me</a></li>
+            <li><a class="main-link" href="education.html">Education</a></li>
+            <li><a class="main-link" href="published-content.html">Published Content</a></li>
+            <!-- <li class="right"><a href="contact-me.html">Contact</a></li> -->
+          <li class="icons-top-nav">
+            <a href= "mailto:adrian.jenna.c@gmail.com"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+          </li>
+          <li class="icons-top-nav">
+            <a href="https://www.instagram.com/withlovejennaa/" target="blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+          </li>
+          <li class="icons-top-nav">
+            <a href="https://www.linkedin.com/in/jenna-adrian-diaz-16b820a5/" target="blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+    </header>
+    <main>
+    <div class="who-i-am-wrapper">
+      <picture class="about-me-photo">
+          <source media screen= "(min-width: 40rem)"
+          srcset="../Photos/About/self-large.gif  800w,
+          ../Photos/About/self-medium.gif   640w,
+          ../Photos/About/self-small.gif   375w,"
+          sizes="33.3vw"/>
+          <source srcset="../Photos/About/self-large2x.jpg 2x,
+          ../Photos/About/self-small2x.jpg 2x," />
+          <img src="../Photos/About/self-small.gif"/>
+      </picture>
+      <div class="who-i-am-text">
+        <h2>Who I am</h2>
+          <p>Hi, I'm Jenna! I'm an experienced digital marketer, event planner and editorial content contributor. I'm the person working tirelessly behind the scenes to make more happen for my clients. Whether it's increasing publicity, profits, page views, or a combination of all three, you can depend on me to deliver and implement the strategies to make it happen.</p>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <h3>Professional Experience</h3>
-            <p>Below are the various professional opportunities I've had the chance to explore. As you can see, my interests range from editorial journalism to legislative reform. While my interests are diverse, you can be assured that I have given my all to deliver the best results in each of my professional ventures.</p>
-        </div>
+    </div>
+    <div class="professional-experience">
+        <h3>Professional Experience</h3>
+          <p>Below you'll find the various professional opportunities I've had the chance to explore. As you can see, my interests range from editorial journalism to legislative reform. While my interests are diverse, you can be assured that I have given my all to deliver the best results in each of my professional ventures.</p>
+    </div>
+    <div class="hustle-wrapper">
+        <picture class="hustle-photo">
+            <source media = "(min-width: 36rem)"
+            srcset="../Photos/About/hustle-large.gif  1024w,
+            ../Photos/About/hustle-medium.gif 640w,
+            ../Photos/About/hustle-small.gif 320w"
+            sizes="33.3vw"/>
+          <img src="../Photos/About/hustle-small.gif"/>
+        </picture>
+    </div>
+    <div class="positions-wrapper">
+        <h4>What I've Been Up To</h4>
+          <ul class="positions-list">
+            <li>Senior Style Editor,<i> Philly Streats Magazine</i>, January 2017</li>
+            <br>
+            <li>Style Guru Intern,<i> CollegeFashionista</i>, January 2017</li>
+            <br>
+            <li>National Contributing Writer,<i> Her Campus Media</i>, November 2015 - Present</li>
+            <br>
+            <li>Acting Senior Editor,<i> Her Campus Media at Drexel University</i>, September 2016 - December 2016</li>
+            <br>
+            <li>Editorial Intern,<i> Her Campus Media</i>, July, 2016 - August, 2016</li>
+            <br>
+            <li>Student Lobbyist,<i> Collegiate Housing &amp; Infrastructure Act</i>, April 20 - 24, 2016</li>
+            <br>
+            <li>Marketing &amp; Sales Intern,<i> Alkemy X Creative Content</i>, April, 2016 - August, 2016</li>
+            <br>
+            <li>Marketing &amp; Events Manager,<i> Her Campus Media at Drexel University</i>, September, 2015 - June, 2016</li>
+            <br>
+            <li>Market Research Assistant,<i> Project Management Institute</i>, September, 2015 - March, 2016</li>
+          </ul>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <img src="http://placehold.it/450x150">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <h4>What I've Been Up To</h4>
-            <ul>
-              <li>Senior Style Editor, <i>Philly Streats Magazine</i>, January 2017</li>
-              <br>
-              <li>Style Guru Intern, <i>CollegeFashionista</i>, January 2017</li>
-              <br>
-              <li>National Contributing Writer, <i>Her Campus Media</i>, November 2015 - Present</li>
-              <br>
-              <li>Acting Senior Editor, <i>Her Campus Media at Drexel University</i>, September 2016 - December 2016</li>
-              <br>
-              <li>Editorial Intern, <i>Her Campus Media</i>, July, 2016 - August, 2016</li>
-              <br>
-              <li>Student Lobbyist, <i>Collegiate Housing &amp; Infrastructure Act</i>, April 20 - 24, 2016</li>
-              <br>
-              <li>Marketing &amp; Sales Intern, <i>Alkemy X Creative Content</i>, April, 2016 - August, 2016</li>
-              <br>
-              <li>Marketing &amp; Events Manager, <i>Her Campus Media at Drexel University</i>, September, 2015 - June, 2016</li>
-              <br>
-              <li>Market Research Assistant, <i>Project Management Institute</i>, September, 2015 - March, 2016</li>
-            </ul>
-        </div>
-      </div>
-    </body>
+    </main>
+<div class="footer">
+<footer>
+<a href= "mailto:adrian.jenna.c@gmail.com"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/withlovejennaa/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+<a href="https://www.linkedin.com/in/jenna-adrian-diaz-16b820a5/" target="blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+</footer>
+</div>
+  </body>
 </html>
