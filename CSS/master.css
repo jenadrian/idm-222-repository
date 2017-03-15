@@ -233,6 +233,10 @@ footer a:-webkit-any-link{
 
 }
 
+.positions-list{
+  line-height: 2.5;
+}
+
 .positions-wrapper{
   display: flex;
   flex-wrap: wrap;
