@@ -313,45 +313,10 @@ footer a:-webkit-any-link{
 }
 .article-box{
   display:block;
-  flex-grow: <1>;
-  flex-shrink: <1>;
+  flex-grow: 1;
+  flex-shrink: 1;
   flex-basis: auto;
   margin: auto;
   width:20rem;
   height:25rem;
 }
-
-
-
-
-
-/*CONTACT ME PAGE STYLING*/
-
-
-/*#contact{
-  text-align: center;
-}
-
-#contact-form{
-  display:flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: center;
-}
-
-input {
-    width: 100%;
-    font-family: "Open Sans", sans-serif;
-
-}
-
-input[type=text]:focus {
-    border: 1px solid #363739;
-}
-
-input[type=button], input[type=submit], input[type=reset] {
-    background-color: #F51E95;
-    border: none;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;*/
