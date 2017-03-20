@@ -103,6 +103,9 @@ h1{
   color:#F51E95;
   font: 400% 'Times New Roman', serif;
 }
+h1 a:link{
+  text-decoration: none !important;
+}
 @media screen and (min-width:50rem){
 .logo{
 display: none;
@@ -268,8 +271,6 @@ footer a:hover{
   padding-top: 2rem;
   width: 100%;
   height: auto;
-  max-width: 100rem;
-  max-height: 75rem;
 }
 
 
@@ -329,22 +330,28 @@ footer a:hover{
 @media screen and (min-width:650px) {
 .img-wrapper{
   max-width: 50rem;
+  flex-wrap: nowrap;
 }
 .major .minor{
-display: block;
+/*display:block;*/
 width: 100%;
+height: auto;
 flex-direction: column;
 align-items: center;
 align-content: center;
 justify-content: center;
 }
 .skill{
-  display: block;
-  align-items: flex-start;
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  height: 15%;
   min-width: 15rem;
 }
 }
-/*@media screen and (min-width: 800px) {
+/* Framework to later create Education slideshow once I gain more skills that I want to showcase
+@media screen and (min-width: 800px) {
 #edSlideshow{
   display: block;
 
