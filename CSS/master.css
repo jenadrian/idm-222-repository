@@ -350,24 +350,6 @@ justify-content: center;
   min-width: 15rem;
 }
 }
-/* Framework to later create Education slideshow once I gain more skills that I want to showcase
-@media screen and (min-width: 800px) {
-#edSlideshow{
-  display: block;
-
-}
-.education-wrapper{
-  display: none;
-}
-.edSlides {
-  display:none;
-  width: 100%;
-}
-button {
-  cursor:pointer;
-  color:#F51E95;
-}
-}*/
 .education-title{
   font-family: 'Raleway', sans-serif;
   /*font-weight: bold;*/
