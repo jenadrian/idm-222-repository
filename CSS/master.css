@@ -268,6 +268,8 @@ footer a:hover{
   padding-top: 2rem;
   width: 100%;
   height: auto;
+  max-width: 100rem;
+  max-height: 75rem;
 }
 
 
@@ -317,13 +319,54 @@ footer a:hover{
   flex-grow: <1>;
   flex-shrink: <1>;
   flex-basis: auto;
-  margin: auto;
-  width:20rem;
-  height:25rem;
+  margin: 1rem;
+  width:100%;
+  height:auto;
 }
-/*.education-title{
+#edSlideshow{
+  display: none;
+}
+@media screen and (min-width:650px) {
+.img-wrapper{
+  max-width: 50rem;
+}
+.major .minor{
+display: block;
+width: 100%;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: center;
+}
+.skill{
+  display: block;
+  align-items: flex-start;
+  min-width: 15rem;
+}
+}
+/*@media screen and (min-width: 800px) {
+#edSlideshow{
+  display: block;
+
+}
+.education-wrapper{
+  display: none;
+}
+.edSlides {
+  display:none;
+  width: 100%;
+}
+button {
+  cursor:pointer;
+  color:#F51E95;
+}
+}*/
+.education-title{
+  font-family: 'Raleway', sans-serif;
+  /*font-weight: bold;*/
+  font-size: 150%;
   color: #474545;
 }
 .education-info{
   color: #474545;
-}*/
+}
