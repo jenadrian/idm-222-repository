@@ -99,12 +99,11 @@ body{
   margin: 2rem;
   padding: .007rem;
 }
-h1{
-  color:#F51E95;
-  font: 400% 'Times New Roman', serif;
-}
+
 h1 a:link{
   text-decoration: none !important;
+  color:#F51E95 !important;
+    font: 400% 'Times New Roman', serif;
 }
 @media screen and (min-width:50rem){
 .logo{
