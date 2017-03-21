@@ -56,6 +56,7 @@ span{
   list-style: none;
   text-decoration: none;
   -webkit-padding-start: 0;
+  -moz-padding-start:0;
 }
 ul.nav-pages li a.active {
   color: white !important;
