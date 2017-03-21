@@ -317,6 +317,10 @@ footer a:hover{
   font-weight: bold;
   color:#474545 !important;
 }
+.article-title *|*:link{
+  font-weight: bold;
+  color:#474545 !important;
+}
 .editorial-info{
   color: #757272;
 }
