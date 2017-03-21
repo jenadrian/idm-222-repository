@@ -169,6 +169,11 @@ footer a:-webkit-any-link{
   text-decoration: none;
   color: #F51E95;
 }
+
+footer a:-moz-any-link{
+  text-decoration: none;
+  color: #F51E95;
+}
 footer a{
   text-align: center;
   padding: 0 1rem;
