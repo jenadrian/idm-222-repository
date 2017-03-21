@@ -306,9 +306,16 @@ footer a:hover{
 .article-title{
   font-weight: bold;
   color:#474545;
+}
 
+.article-title a:webkit-any-link{
+    font-weight: bold;
+    color:#474545;
+}
 
-
+.article-title a:moz-any-link{
+  font-weight: bold;
+  color:#474545;
 }
 .editorial-info{
   color: #757272;
