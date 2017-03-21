@@ -310,12 +310,12 @@ footer a:hover{
 
 .article-title a:webkit-any-link{
     font-weight: bold;
-    color:#474545;
+    color:#474545 !important;
 }
 
 .article-title a:moz-any-link{
   font-weight: bold;
-  color:#474545;
+  color:#474545 !important;
 }
 .editorial-info{
   color: #757272;
