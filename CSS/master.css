@@ -41,7 +41,15 @@ span{
   text-decoration: none;
   color:#474545;
 }
+
+.topnav a:-moz-any-link {
+  text-decoration: none;
+  color:#474545;
+}
 .nav-icons a:hover{
+  color: #696666;
+}
+.nav-icons a:-moz-any-link{
   color: #696666;
 }
 .nav-pages{
